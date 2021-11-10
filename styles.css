@@ -2,6 +2,10 @@
   margin: 0px;
 }
 
+.container {
+  margin: 0 350px;
+}
+
 header {
   background-color: #0D74BF;
   padding: 20px;
@@ -18,7 +22,7 @@ ul {
 
 .navigation {
   display: flex;
-  border-bottom: 1px solid cadetblue;
+  flex-direction: row;
   padding: 10px;
 }
 
@@ -46,7 +50,6 @@ ul {
 
 .navigation {
   display: flex;
-  border-bottom: 1px solid cadetblue;
   padding: 10px;
 }
 
@@ -69,17 +72,23 @@ ul {
   color: red;
 }
 
+.news-container {
+  background-color: #ECECEC;
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px;
+  border-top: 1px solid cadetblue;
+}
+
 .news {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  padding-top: 40px;
-  background-color: #ECECEC;
-  height: 100vh;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .primary-panel {
-  width: 65%;
+  width: 70%;
+  padding-right: 10px;
 }
 
 .image {
@@ -89,7 +98,6 @@ ul {
 }
 
 .secondary-panel {
-  background-color: greenyellow;
-  width: 25%;
-  height: 20px;
+  width: 40%;
+  padding-left: 10px;
 }
