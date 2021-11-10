@@ -87,6 +87,8 @@ ul {
 }
 
 .primary-panel {
+  display: flex;
+  flex-direction: column;
   width: 70%;
   padding-right: 10px;
 }
@@ -95,6 +97,25 @@ ul {
   width: 100%;
   object-fit: contain;
   border-radius: 5px 5px 0 0;
+}
+
+.image-text-blue {
+  background-color: #0D74BF;
+  color: white;
+  height: 130px;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 0 0 5px 5px;
+}
+
+.image-text-white {
+  background-color: white;
+  color: #0D74BF;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #0D74BF;
 }
 
 .secondary-panel {
